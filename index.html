@@ -9,25 +9,40 @@
 </head>
 
 <body>
-  <div class="start-btn"><button>Start Quiz</button></div>
+<div class="main">
 
+<div class="timer"></div>
+  
 
-  <div class="info-box">
-    <div class="info-list"><span>Some Rules of this Quiz</span></div>
-    <div class="info-list">
-        <div class="info">1. You will have fully <span>15 seconds</span> per each question.</div>
-        <div class="info">2. You can't select any option once time goes off.</div>
-        <div class="info">3. You'll get points on the basis of your correct answers.</div>
+    <div class="info-box">
+        <div class="start-btn"><button id="startbtn"> Start Quiz</button></div>
+        <div class="info-list"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have <span>75 seconds</span> to complete the quiz.</div>
+            <div class="info">2. You will get scored based off of your time remaining.</div>
+        </div>
+         <div class="score-button">
+            <a href="highscore.html">
+            <button class="high-score">View High Scores</button>
+            </a>
+        </div>
     </div>
-    <div class="button">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
-    </div>
+</div>
+  <div class="initial-box">
+    <input type="text" id="initial">
+    <button id="in-btn">Submit</button>
   </div>
-
-  <div class="quiz-box">
-    <header></header>
+<div class="quiz-box">
+    <header id="title">Let's get groovey😎</header>
+    <ul id="choices"></ul>
+        
+   
   </div>
+</div>
+<div>
+    <button id
+</div>
 </body>
+<script src="./assets/script.js"></script>
 
 </html>
